@@ -1,0 +1,82 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Formularz zamówienia</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+<style>
+body {
+font-family: "Sofia", sans-serif;
+}
+input,label, select, textarea ,checkbox {
+width: 80%;
+padding: 15px;
+margin: 20 px;
+font-size: 20 px;
+}
+</style>
+</head>
+
+<body>
+
+<div style="background-color: pink; width: 100%: height: 500px; overflow: hidden">
+<h1 style="color: white; text-align: center; padding-top: 200px; font-size: 80px">ALA CANDLE</h1>
+</div>
+
+
+</div>
+<div style="background-color: pink; width: 100%; height: 1100px; padding-top: 10px; font-size: 20 px; text-align: center; overflow: hidden width">
+
+<h2 style="color: white; font-size: 50px; text-align:center">Formularz zamówienia</h2>
+<form action="" method="post" target="_blank" autocomplete="on">
+<fieldset>
+<legend>Twoje zamówienie</legend>
+<label for="Imię">Imię</label><br>
+<input type="text" id="firstname" name="firstname" placeholder="Nadia" required autofocus><br>
+
+<label for="Nazwisko">Nazwisko</label><br>
+<input type="text" id="nazwisko" placeholder="Bałkowiec" required><br>
+
+<label for="Adres">Adres</label><br>
+<input type="text" id="adres" placeholder="Kolorowa 44/107" required><br>
+
+<label for="Kodpocztowy">Kod pocztowy</label><br>
+<input type="text" id="kod pocztowy" placeholder="70-007" required><br>
+
+<label for="Miasto">Miasto</label><br>
+<input type="text" id="Miasto" placeholder="Warszawa" required><br>
+
+<label for="data">Preferowana data dostawy</label><br>
+<input type="date" id="data" required><br>
+
+<label for="Zapach świecy">Zapach świecy</label><br>
+<select type="text" id="Zapach świecy" multiple>
+<option value="Farm fresh peach">Farm fresh peach</option>
+<option value="Beautiful day">Beautiful daye</option>
+<option value="Coconut race cream">Coconut race cream</option>
+<option value="Autumn sunset">Autumn sunset</option>
+</select><br>
+
+
+<label for="Rozmiar świecy">Rozmiar świecy</label><br>
+<select type="text" id="Rozmiar świecy" multiple>
+<option value="mała">mała</option>
+<option value="średnia">średnia</option>
+<option value="duża">duża</option>
+</select><br>
+
+<label for="Uwagi">Uwagi</label><br>
+<textarea id="uwagi" name="uwagi" rows="5"></textarea><br>
+
+<label for="regulamin">Akceptuje warunki regulaminu</label><br>
+<input type="checkbox" id="regulamin"><br>
+
+<input type="submit" value="Złóż zamówienie"><br>
+
+
+
+</form>
+</div>
+</body>
+
+
+</html>
