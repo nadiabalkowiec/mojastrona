@@ -1,1 +1,2 @@
 # mojastrona
+autor: Nadia Bałkowiec
